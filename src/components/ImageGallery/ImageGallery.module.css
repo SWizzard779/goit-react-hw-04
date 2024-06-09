@@ -1,0 +1,14 @@
+.gallerylist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 12px;
+}
+
+.gallerylist_item {
+    flex-basis: calc((100% - 36px) / 4);
+    background-color: transparent;
+}

@@ -1,0 +1,28 @@
+.SearchBar_container {
+    background-color: blue;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.SearchBar_form {
+    background-color: white;
+    border: 1px solid black;
+    width: 350px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.SearchBar_btn {
+    background-color: white;
+    padding: 6px;
+    border: none;
+    line-height: 0;
+}
+
+.SearchBar_input {
+    background-color: white;
+    border: none;
+    width: 100%;
+}

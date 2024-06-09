@@ -1,0 +1,11 @@
+.photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: transform 250ms linear;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
