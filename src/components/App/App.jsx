@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import SearchBar from '../SearchBar/SearchBar'
-import { fetchPhotosByQuery } from '/Users/sofia/Documents/GitHub/goit-react-hw-04/gallery-api';
+import { fetchPhotosByQuery } from '../../../gallery-api';
 import ImageGallery from '../ImageGallery/ImageGallery';
 import Loader from '../Loader/Loader';
 import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn';
